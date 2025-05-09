@@ -129,9 +129,9 @@
     nav a:hover {
       text-decoration: underline;
     }
-    a[href^="#ref"], footer.wrapper a {
-      color: rgb(255, 216, 0);
-    }
+    a[href^="#ref"]:not(nav a) {
+  color: rgb(255, 216, 0);
+}
 header.topbar {
   position: fixed;
   top: 0;
